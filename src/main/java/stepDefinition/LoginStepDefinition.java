@@ -54,7 +54,7 @@ public class LoginStepDefinition {
 	public void user_is_on_home_page() {
 		String homePageTitle = driver.getTitle();
 		System.out.println("home page title is: " + homePageTitle);
-		Assert.assertEquals("CRMPRO123", homePageTitle);
+		Assert.assertEquals("CRMPRO", homePageTitle);
 	}
 	
 	@Then("^close the browser$")

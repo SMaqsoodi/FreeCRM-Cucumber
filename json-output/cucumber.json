@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7335003778,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61228108,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 915499712,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters unsername and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4798100261,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16795498,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171969045,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "user is able to create new contacts",
+        "description": "",
+        "id": "free-crm-login-feature;user-is-able-to-create-new-contacts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 271795,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is already on home page",
+            "match": {
+              "location": "CreateNewContactStepDeifinition.user_is_already_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96035,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user mouse over on contacts link",
+            "match": {
+              "location": "CreateNewContactStepDeifinition.user_mouse_over_on_contacts_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98548,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on new contact link",
+            "match": {
+              "location": "CreateNewContactStepDeifinition.user_clicks_on_new_contact_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118803,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters firstname and lastname",
+            "match": {
+              "location": "CreateNewContactStepDeifinition.user_enters_firstname_and_lastname()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107696,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "CreateNewContactStepDeifinition.user_clicks_on_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101160,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify new contact is created",
+            "match": {
+              "location": "CreateNewContactStepDeifinition.verify_new_contact_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
